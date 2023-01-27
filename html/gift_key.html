@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+   <title>Krings</title>
+   <link rel="stylesheet" type="text/css" href="/styles/main.css">
+
+   <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+
+   <!-- Favicon -->
+   <link rel="shortcut icon" href="/images/favicon.ico">
+   <!-- Favicon -->
+
+   <!-- Open Graph. -->
+   <meta property="og:type" content="website">
+   <meta property="og:site_name" content="Krings">
+   <meta property="og:url" content="https://krings.knott.fun">
+   <meta property="og:locale" content="en">
+   <meta property="og:title" content="Krings | Home">
+   <meta property="og:description"
+      content="Lorem ipsum dolor sit amet consectetur adipisicing, elit. Nesciunt eligendi perferendis doloremque eius magni est dolores. Voluptate nisi consequuntur, quaerat!">
+   <meta property="og:image" content="/images/favicon.ico">
+   <meta property="og:image:width" content="800">
+   <meta property="og:image:height" content="800">
+   <!-- Open Graph. -->
+</head>
+
+<body class="gift">
+
+   <!-- Header. -->
+   <div class="header">
+      <div class="bone">
+         <div class="header_net __flex-start">
+            <div class="header_logo">
+               <a href="/"><img src="/images/logo2.svg" alt></a>
+            </div>
+            <div class="header_right __flex-align">
+               <a href="/res" class="header_res">{$HEAD_RES"}</a>
+               <div class="bar">
+                  <div class="bar_veil" onclick="bar_close()"></div>
+                  <div class="bar_burger" onclick="bar_toggle()">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                  </div>
+                  <div class="bar_wrapper">
+                     <div class="bar_bg">
+                        <img src="/images/bar.jpg" alt srcset="/images/bar.jpg 1x">
+                     </div>
+                     <div class="bar_net">
+                        <div class="bar_nav __flex">
+                              <div class="lang_btn_menu" style="display: none;">
+                              <a href="#" class="__btn btn_lng_mar">English</a>
+                              <a href="#" class="__btn btn_lng_mar">Deutsch</a>
+                              </div>
+                              <a href="/index__key.html" class="bar_nav_li __hover_line">{$BAR_KRING}</a>
+                              <a href="wein__key-de.html" class="bar_nav_li __hover_line">{$BAR_WEIN}</a>
+                              <a href="fondue__key.html" class="bar_nav_li __hover_line">{$BAR_FON}</a>
+                              <a href="events__key.html" class="bar_nav_li __hover_line">{$BAR_VER}</a>
+                              <a href="/" class="bar_nav_li __hover_line">{$BAR_GUT}</a>
+                              <a href="gallery.html" class="bar_nav_li __hover_line">{$BAR_GAL}</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+      </div>
+   </div>
+   <div class="gift__title">
+      <img src="/images/title.svg" alt="">
+   </div>
+   <div class="gift__marquee">
+      <div class="gift__wrap">
+         <div class="gift__text">
+            <img src="/images/text.svg" alt="">
+         </div>
+         <div class="gift__text">
+            <img src="/images/text.svg" alt="">
+         </div>
+         <div class="gift__text">
+            <img src="/images/text.svg" alt="">
+         </div>
+         <div class="gift__text">
+            <img src="/images/text.svg" alt="">
+         </div>
+         <div class="gift__text">
+            <img src="/images/text.svg" alt="">
+         </div>
+         <div class="gift__text">
+            <img src="/images/text.svg" alt="">
+         </div>
+      </div>
+
+   </div>
+
+   <!-- Header. -->
+
+
+   <div id="giftcardWrapper" style="width: 100%; height: 450px;"></div>
+
+
+   <script>
+
+      var js = document.createElement("script");
+
+      js.type = "text/javascript";
+
+      js.onload = function () {
+
+         window.SmorderGutscheine("#giftcardWrapper", 9403);
+
+      };
+
+      js.src = "https://smorderfrontend.azureedge.net/embed/v.js";
+
+      window.onload = function () {
+
+         document.body.appendChild(js);
+
+      }
+
+   </script>
+
+   <script src="/js/libraries/jquery.min.js"></script>
+   <script src="/js/libraries/slick.min.js"></script>
+   <script src="/js/main.min.js"></script>
+
+</body>
+
+</html>

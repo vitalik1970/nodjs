@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="de">
 
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+   <meta name="description" content= "KRINGSALM - Mach Deinen Skiurlaub zum Hochgenuss Für R estaurantflair direkt an der Piste N ur regionale, hausgemachte, frisch zubereitete Speisen" />
+   <meta name="robots" content="index, follow">
    <title>Krings</title>
-   <link rel="stylesheet" type="text/css" href="/styles/main.min.css">
+   <link rel="stylesheet" type="text/css" href="/styles/newmain.css">
 
    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
 
@@ -51,11 +53,16 @@
                      </div>
                      <div class="bar_net">
                         <div class="bar_nav __flex">
-                           <a href="/" class="bar_nav_li __hover_line">{$BAR_KRING}</a>
-                           <a href="/wein" class="bar_nav_li __hover_line">{$BAR_WEIN}</a>
-                           <a href="/gallery" class="bar_nav_li __hover_line">{$BAR_GAL}</a>
-                           <a href="/events.html" class="bar_nav_li __hover_line">{$BAR_VER}</a>
-                           <a href="gift.html" class="bar_nav_li">{$BAR_GUT}</a>
+                           <div class="lang_btn_menu">
+                              <a href="#" class="__btn btn_lng_mar">English</a>
+                              <a href="#" class="__btn btn_lng_mar">Deutsch</a>
+                              </div>
+                              <a href="/" class="bar_nav_li __hover_line">{$BAR_KRING}</a>
+                              <a href="wein__key-de.html" class="bar_nav_li __hover_line">{$BAR_WEIN}</a>
+                              <a href="/fondue" class="bar_nav_li __hover_line">{$BAR_FON}</a>
+                              <a href="/events.html" class="bar_nav_li __hover_line">{$BAR_VER}</a>
+                              <a href="gift.html" class="bar_nav_li __hover_line">{$BAR_GUT}</a>
+                              <a href="gallery.html" class="bar_nav_li __hover_line">{$BAR_GAL}</a>
                         </div>
                      </div>
                   </div>
@@ -181,11 +188,11 @@
 
       <div class="lag">
          <div style="pointer-events:none;" class="lag__img">
-            <img src="/images/mountis.svg" alt="">
+            <img src="/images/svg/map.svg" alt="foto">
          </div>
          <p> <a class="__btn" href="/files/OT-PANORAMA_A3_2022_print_Seite1.jpg" target="_blank">{$IN_CENTARAL_LAGEPLAN}</a></p>
       </div>
-
+      
    </div>
    <!-- Footer. -->
    <div class="footer">
@@ -230,7 +237,6 @@
    <script src="/js/libraries/jquery.min.js"></script>
    <script src="/js/libraries/slick.min.js"></script>
    <script src="/js/main.min.js"></script>
-   <script src="/lang.js"></script>
 
 </body>
 

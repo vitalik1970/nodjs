@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+   <title>Krings</title>
+   <link rel="stylesheet" type="text/css" href="/styles/newmain.css">
+
+   <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+
+   <!-- Favicon -->
+   <link rel="shortcut icon" href="/images/favicon.ico">
+   <!-- Favicon -->
+
+   <!-- Open Graph. -->
+   <meta property="og:type" content="website">
+   <meta property="og:site_name" content="Krings">
+   <meta property="og:url" content="https://krings.knott.fun">
+   <meta property="og:locale" content="en">
+   <meta property="og:title" content="Krings | Home">
+   <meta property="og:description"
+      content="Lorem ipsum dolor sit amet consectetur adipisicing, elit. Nesciunt eligendi perferendis doloremque eius magni est dolores. Voluptate nisi consequuntur, quaerat!">
+   <meta property="og:image" content="/images/favicon.ico">
+   <meta property="og:image:width" content="800">
+   <meta property="og:image:height" content="800">
+   <!-- Open Graph. -->
+</head>
+
+<body>
+
+   <!-- Header. -->
+   <div class="header">
+      <div class="bone">
+         <div class="header_net __flex-start">
+            <div class="header_logo">
+               <a href="/"><img src="/images/svg/logo.svg" alt></a>
+            </div>
+            <div class="header_right __flex-align">
+               <a href="/res" class="header_res">Reservierung</a>
+               <div class="bar">
+                  <div class="bar_veil" onclick="bar_close()"></div>
+                  <div class="bar_burger" onclick="bar_toggle()">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                  </div>
+                  <div class="bar_wrapper">
+                     <div class="bar_bg">
+                        <img src="/images/bar.jpg" alt srcset="/images/bar.jpg 1x">
+                     </div>
+                     <div class="bar_net">
+                        <div class="bar_nav __flex">
+                           <div class="lang_btn_menu">
+                              <a href="#" class="__btn btn_lng_mar">English</a>
+                              <a href="#" class="__btn btn_lng_mar">Deutsch</a>
+                              </div>
+                              <a href="index__key.html" class="bar_nav_li __hover_line">Kringsalm</a>
+                              <a href="wein__key-de.html" class="bar_nav_li __hover_line">Wein &amp; Schmankerl</a>
+                              <a href="fondue__key.html" class="bar_nav_li __hover_line">Fondue</a>
+                              <a href="/" class="bar_nav_li __hover_line">Veranstaltungen</a>
+                              <a href="gift__key.html" class="bar_nav_li __hover_line">Gutscheine</a>
+                              <a href="gallery__key.html" class="bar_nav_li __hover_line">Galerie</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- Header. -->
+
+   <div class="event_wrapper">
+      <div class="main">
+         <div class="main_slide">
+            <div class="main_slide_bg">
+               <img src="/images/e.jpg" alt srcset="/images/e.jpg 1x">
+            </div>
+            <div class="bone">
+               <div class="main_slide_content __flex">
+                  <div class="main_slide_title">Bei uns ist immer was los!</div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="event">
+         <div class="event_net __grid-twoo">
+            <div class="event_info">
+               <div class="event_title __anim _anim-x">Hier findest Du alle Infos zu kommenden <br>Veranstaltungen bei uns auf der Kringsalm!</div>
+               <div class="event_label __anim _anim-x">Silvester Warm Up Party</div>
+               <div class="event_text __anim _anim-x _wis">
+                 
+                  <br>Zu Silvester lassen wir es heuer bereits am Nachmittag krachen. Gemeinsam mit unserem DJ uns Saxophonisten feiern wir mit euch und verabschieden das Jahr 2022.
+                  <br>WANN?
+                  <br>Von 15:00 bis 20:00 Uhr bei uns auf der Kringsalm-Terrasse und in der Schirmbar
+                  <br>Wir verwöhnen euch mit einem Special-Bottle-Angebot, coolen Drinks und kulinarischen Köstlichkeiten.
+                  <br>Gerne reservieren wir einen Platz für euch!
+               </div>
+            </div>
+            <div class="event_img __anim _anim-x_r _wis">
+               <img src="/images/event.jpg" alt srcset="/images/event.jpg 1x">
+            </div>
+         </div>
+         <div class="event_net __grid-twoo two">
+            <div class="event_img __anim _anim-x _wis">
+               <div class="event_pink-text">
+                  #pinktable
+               </div>
+               <img class="img" src="/images/event_2.jpg" alt srcset="/images/event_2.jpg 1x">
+            </div>
+            <div class="event_info">
+               <div class="event_sharp __anim _anim-x_r">#PINKTABLE!</div>
+               <div class="event_text __anim _anim-x_r _wis">
+                  Du willst ein fantastisches Essen genießen und dabei auch noch Gutes tun? - Das geht!
+                  <br>Eine festlich gedeckte Tafel, mitten im Schnee.
+                  <br>Eine atemberaubende Aussicht auf die bezaubernde, majestätische Bergwelt von Obertauern.
+                  <br>Ein DJ der für die besten Beats sorgt. Eine Veranstaltung bei der der Erlös zu 100% an die Österreichische Krebshilfe geht.
+                  <br>Ohne Kompromisse!
+               </div>
+               <div class="event_bottom __anim _anim-x_r">Das ist unser<span>#pinktable</span></div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <script src="/js/libraries/jquery.min.js"></script>
+   <script src="/js/libraries/slick.min.js"></script>
+   <script src="/js/main.min.js"></script>
+
+</body>
+
+</html>

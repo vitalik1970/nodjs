@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+   <title>Krings</title>
+   <link rel="stylesheet" type="text/css" href="/styles/main.min.css">
+   <!--<link rel="stylesheet" href="/styles/main.css">-->
+
+   <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+
+   <!-- Favicon -->
+   <link rel="shortcut icon" href="/images/favicon.ico">
+   <!-- Favicon -->
+
+   <!-- Open Graph. -->
+   <meta property="og:type" content="website">
+   <meta property="og:site_name" content="Krings">
+   <meta property="og:url" content="https://krings.knott.fun">
+   <meta property="og:locale" content="en">
+   <meta property="og:title" content="Krings | Home">
+   <meta property="og:description"
+      content="Lorem ipsum dolor sit amet consectetur adipisicing, elit. Nesciunt eligendi perferendis doloremque eius magni est dolores. Voluptate nisi consequuntur, quaerat!">
+   <meta property="og:image" content="/images/favicon.ico">
+   <meta property="og:image:width" content="800">
+   <meta property="og:image:height" content="800">
+   <!-- Open Graph. -->
+</head>
+
+<body>
+
+   <!-- Header. -->
+   <div class="header _black">
+      <div class="bone">
+         <div class="header_net __flex-start">
+            <div class="header_logo _big">
+               <a href="/"><img src="/images/svg/logo3.svg" alt></a>
+            </div>
+            <div class="header_right __flex-align">
+               <a href="/res" class="header_res">Reservierung</a>
+               <div class="bar">
+                  <div class="bar_veil" onclick="bar_close()"></div>
+                  <div class="bar_burger" onclick="bar_toggle()">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                  </div>
+                  <div class="bar_wrapper">
+                     <div class="bar_bg">
+                        <img src="/images/bar.jpg" alt srcset="/images/bar.jpg 1x">
+                     </div>
+                     <div class="bar_net">
+                        <div class="bar_nav __flex">
+                           <div class="lang_btn_menu">
+                              <a href="#" class="__btn btn_lng_mar">English</a>
+                              <a href="#" class="__btn btn_lng_mar">Deutsch</a>
+                           </div>
+                           <a href="/index__key-de.html" class="bar_nav_li __hover_line">Kringsalm</a>
+                           <a href="/" class="bar_nav_li __hover_line">Wein &amp; Schmankerl</a>
+                           <a href="/fondue" class="bar_nav_li __hover_line">Fondue</a>
+                           <a href="/events.html" class="bar_nav_li __hover_line">Veranstaltungen</a>
+                           <a href="gift.html" class="bar_nav_li __hover_line">Gutscheine</a>
+                           <a href="/gallery" class="bar_nav_li __hover_line">Galerie</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- Header. -->
+
+   <div class="wein">
+      <div class="wein_main">
+         <a class="wein_menu" href="/files/Speisekarte 2022-23.pdf" target="_blank">
+            <div class="wein_menu_img _anim-drop">
+               <img src="/images/svg/spe.svg" alt>
+            </div>
+            <div class="wein_menu_name __anim _anim-y">Speisekarte</div>
+         </a>
+         <a class="wein_menu" href="/files/Getränkekarte 2022-23-2.pdf" target="_blank">
+            <div class="wein_menu_img _anim-drop">
+               <img src="/images/svg/wine.svg" alt>
+            </div>
+            <div class="wein_menu_name __anim _anim-y">Getränkekarte</div>
+         </a>
+      </div>
+      <div class="wein_information" id="sb">
+         <div class="bone">
+            <div class="wein_information_title __anim _anim-y">Unser SB Restaurant</div>
+            <div class="wein_information_subtitle __anim _anim-x">Wir beweisen Dir, dass Selbstbedienung mehr sein kann als lauwarmer Fertigfraß!</div>
+            <div class="wein_information_text __anim _anim-x">Wenn Du das Wort „Selbstbedienung“ hörst, dann schrillen bei Dir vielleicht schon die Alarmglocken. Du verbindest mit diesem Wort das ewige Warten in einer
+               <br>viel zu langen Schlange und Essen im Katinenformat.
+               <br>Wir haben gesagt: „Das geht besser!“
+               <br>Unsere Küchencrew bereitet alles Nötige für Deine Gerichte morgens frisch zu - hier werden Kartoffeln geschält, Spätzle geschabt, Gemüse geschnippelt und
+               <br>Fleisch mariniert. Von Eiern in Pulverform, Geschmacksverstärkern oder gar Fertigmischungen keine Spur!
+            </div>
+            <div class="wein_information_net __flex-start">
+               <div class="wein_information_left">
+                  <div class="wein_information_dir __anim _anim-x">Wir bieten Dir:</div>
+                  <ul class="wein_information_net_list">
+                     <li class="__anim _anim-x">frisch zubereitete Speisen aus hochwertigen, regionalen Produkten!</li>
+                     <li class="__anim _anim-x">täglich wechselnde Tagesempfehlungen - damit Dir nie langweilig wird!
+                     </li>
+                     <li class="__anim _anim-x">das Beste was die österreichische Küche zu bieten hat: Wiener Schnitzel,
+                        <br>Grillhendl, Kasnocken, Gröstl, Kaiserschmarrn und noch so vieles mehr
+                     </li>
+                  </ul>
+                  <div class="wein_information_menu __anim _anim-y _wis">
+                     <div class="wein_information_menu_img _anim-drop">
+                        <img src="/images/svg/spe.svg" alt>
+                     </div>
+                     <div class="wein_information_menu_btn">
+                        <a class="__btn" href="/files/Speisekarte 2022-23.pdf" target="_blank">Speisekarte</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="wein_information_img __anim _anim-x_r _wis">
+                  <img src="/images/inf.jpg" alt srcset="/images/inf.jpg 1x">
+               </div>
+            </div>
+            <div class="wein_information_subtitle __anim _anim-y">Ihr seid eine größere Gruppe? Gerne bereiten wir unsere Pfandl im großen Stil für euch vor!</div>
+            <ul class="wein_information_list">
+               <li class="__anim _anim-x">o Kalbs- oder Schweinerippchen</li>
+               <li class="__anim _anim-x">o Stelze (auch Eisbein/Haxe genannt)</li>
+               <li class="__anim _anim-x">o Unser beliebtes Kringsalmpfandl</li>
+               <li class="__anim _anim-x">o Unsere Klassiker wie Tiroler Gröstl oder Kasnocken</li>
+            </ul>
+            <div class="wein_information_label __anim _anim-x">Gerne nehmen wir Deine Vorbestellung auch noch am selben Tag (bis spätestens 2 Stunden vorher) entgegen. Melde Dich dazu telefonisch oder komm einfach kurz bei uns vorbei!</div>
+            <div class="wein_information_btn __anim _anim-y">
+               <a class="__btn" href="/res">Reservierung/Vorbestellung</a>
+            </div>
+         </div>
+      </div>
+
+   </div>
+   </div>
+   </div>
+   </div>
+   <div class="wein_img" id="st" data-img="wein1.jpg">Unser Krings-Stüberl</div>
+   <div class="wein_star">
+      <div class="bone">
+         <div class="wein_star_title __anim _anim-y">Wenn Gemütlichkeit und Ambiente bei Dir an erster Stelle stehen!
+         </div>
+         <div class="wein_star_text">
+            <p class="__anim _anim-y">Stell Dir vor, Du kommst zum ersten Mal in unser gemütliches Stüberl.<br>An der Feuerstelle siehst Du das Flackern der Flammen und fühlst Dich sofort wohl.<br>Du ziehst Deine Jacke aus und lockerst Deine Skischuhe - jetzt ist die Zeit sich zu entspannen.</p>
+         </div>
+         <div class="wein_stars __anim _anim-y">***</div>
+         <div class="wein_star_text">
+            <p class="__anim _anim-y">Unsere Mitarbeiter reichen Dir die Speisekarte und fragen wie Dein Skitag bisher gelaufen ist.</p>
+            <p class="__anim _anim-y">Du wirfst einen Blick in die Weinkarte und bist positiv überrascht von der umfangreichen Auswahl der edlen Tropfen.</p>
+            <p class="__anim _anim-y">Du fragst die Mitarbeiter nach einer Empfehlung und wirst nicht enttäuscht - Genau so hast Du Dir das vorgestellt.</p>
+            <p class="__anim _anim-y">Du stößt mit deinen Freunden auf den absolut gelungenen Skitag an.</p>
+            <p class="__anim _anim-y">Du genießt die lockere und heimelige Atmosphäre, während Du auf Dein Essen
+               <br>wartest. Das Essen an den Nachbartischen sieht unglaublich gut aus.
+            </p>
+            <p class="__anim _anim-y">Wie erwartet, schmeckt auch Dein Essen fantastisch!</p>
+         </div>
+         <div class="wein_stars __anim _anim-y">***</div>
+         <div class="wein_star_text">
+            <p class="__anim _anim-y">Weil Du vom gemütlichen Ambiente und der wunderschönen Aussicht auf die
+               <br>Bergwelt von Obertauern gar nicht genug bekommen kannst bestellst Du noch einen <br>Kaffee und ein Stück hausgemachte Mehlspeise.
+            </p>
+            <p class="__anim _anim-y">Als es Zeit ist wieder die Pisten zu erobern, unterhältst Du Dich noch kurz mit
+               <br>unseren langjährigen Mitarbeitern Manfred &amp; Astrid. Die persönliche Betreuung war <br>den Besuch auf jeden Fall wert. <br>Erholt, gesättigt und glücklich verlässt Du die Kringsalm. Eins ist klar - hier warst Du <br>nicht zum letzten Mal.
+            </p>
+         </div>
+         <div class="wein_star_btn __anim _anim-y">
+            <a href="/res" class="__btn">Reservierung/Vorbestellung</a>
+         </div>
+      </div>
+   </div>
+   <div class="wein_visit __grid-twoo">
+      <div class="wein_visit_img __anim _anim-x _wis">
+         <img src="/images/visit.jpg" alt srcset="/images/visit.jpg 1x">
+      </div>
+      <div class="wein_visit_info">
+         <div class="wein_visit_title __anim _anim-x_r">Wir wollen jetzt nicht sagen, dass jeder Besuch bei uns exakt so aussieht - aber so könnte er zumindest aussehen. <br>Im Stüberl verwöhnen wir Dich mit</div>
+         <div class="wein_visit_text_big __anim _anim-y">Einer lockeren, gemütlichen und heimeligen Atmosphäre
+            <br>persönlicher Betreuung durch unsere teils langjährigen Mitarbeiter <br>Einer eigenen à la carte Speisekarte und allen Spezialitäten aus unserer <br>erlesenen Weinkarte
+         </div>
+         <div class="wein_visit_text __anim _anim-y">Da wir nur eine beschränkte Anzahl von Plätzen in unserem Stüberl <br>zur Verfügung haben, bitten wir um eine Reservierung.</div>
+      </div>
+   </div>
+   <div class="wein_img _big" id="se" data-img="wein2.jpg">Unsere Sennbar</div>
+   <div class="wein_ski">
+      <div class="wein_ski_net __grid-twoo">
+         <div class="wein_ski_img __anim _anim-x _wis">
+            <img src="/images/ski.jpg" alt srcset="/images/ski.jpg 1x">
+         </div>
+         <div class="wein_ski_info">
+            <div class="wein_ski_title __anim _anim-x_r">Du hast genug vom 08-15 Aprés Ski? <br>Hier bist Du richtig!
+            </div>
+            <div class="wein_ski_text __anim _anim-x_r">Woran denkst Du, wenn Du Aprés Ski hörst? Vermutlich an dröhnende Musik, eine <br>Songauswahl die an den Ballermann erinnert, Geschupse und Gedränge. Hast Du Dir schon einmal überlegt, dass Aprés Ski auch ein Stück entspannter sein könnte?</div>
+            <div class="wein_ski_dich __anim _anim-x_r">In unserer SennBar erwartet Dich</div>
+            <ul class="wein_ski_list">
+               <li class="__anim _anim-x_r">House Musik die Du nicht nur hörst, sondern fühlst</li>
+               <li class="__anim _anim-x_r">Bier, Champagner, Aperol oder Wein - alles was Dein Herz begehrt</li>
+               <li class="__anim _anim-x_r">Ein kurzer Weg zur Bar und eine schnelle, unkomplizierte Bedienung</li>
+               <li class="__anim _anim-x_r">persönliche Betreuung durch unseren Christoph (Stoffi)</li>
+               <li class="__anim _anim-x_r">Musikalische Highlights am Wochenende mit DJ Soultech</li>
+            </ul>
+            <div class="wein_ski_text __anim _anim-x_r">Sollte sich der Hunger dann doch mal melden, verwöhnen wir Dich auch in der SennBar gerne mit den Spezialitäten aus unserer à la carte Speisekarte! <br>Wenn auch Du der Meinung bist, dass sich Gemütlichkeit und Aprés Ski nicht ausschließen, dann besuche unseren „Stoffi“ auf jeden Fall in der SennBar!</div>
+         </div>
+      </div>
+
+      <div class="bone">
+         <div class="wein_ski_net __grid-twoo">
+            <div class="wein_ski_txt">
+               <div class="wein_ski_dich __anim _anim-x">Wer hat an der Uhr gedreht…</div>
+               <div class="wein_ski_text __anim _anim-x _wis">Immer wieder dasselbe! Es ist kurz vor 16 Uhr, die letzte Fahrt der Seilbahnen steht kurz bevor. Wo ist denn die Zeit schon wieder hin! Dein Wein ist noch nicht ausgetrunken, die Unterhaltungen sind genauso erfrischend wie der Champagner und die Musik bringt Dein Herz noch immer zum Tanzen. Es hat doch gerade erst angefangen, so richtig Spaß zu machen. <br>Also warum schon gehen? <br>Unser Geheimtipp: auf die Taxis ist Verlass! Einfach mal mit dem Taxi in die Unterkunft fahren! Die Taxis in Obertauern bringen Dich und Deine Begleiter sicher, unkompliziert und schnell von der Kringsalm zu eurer nächsten Station. Und das für nur 12 €!
+                  <br>Da zahlt es sich wirklich nicht aus, zur letzten Bergfahrt zu hetzen und dem Nachmittag ein viel zu frühes Ende zu bescheren!</div>
+            </div>
+            <div class="wein_ski_menu __anim _anim-x_r _wis">
+               <div class="wein_ski_menu_img  _anim-drop">
+                  <img src="/images/svg/wine.svg" alt>
+               </div>
+               <div class="wein_ski_menu_btn">
+                  <a class="__btn" href="/files/Getränkekarte 2022-23-2.pdf" target="_blank">Getränkekarte</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   </div>
+
+   <script src="/js/libraries/jquery.min.js"></script>
+   <script src="/js/libraries/slick.min.js"></script>
+   <script src="/js/main.min.js"></script>
+
+</body>
+
+</html>
